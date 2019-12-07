@@ -239,4 +239,40 @@ Output: false
         Write an efficient code to print five lines from the end.
 
 ----------------------------------------------------------------------------------------------------------------------------------
+16) 
+Generate all possible sorted arrays from alternate elements of two given sorted arrays
+Given two sorted arrays A and B, generate all possible arrays such that first element is taken from A then from B then from A and so on in increasing order till the arrays exhausted. The generated arrays should end with an element from B.
+
+For Example
+
+ 
+A = {10, 15, 25}
+
+B = {1, 5, 20, 30}
+
+The resulting arrays are:
+  10 20
+  10 20 25 30
+  10 30
+  15 20
+  15 20 25 30
+  15 30
+  25 30
+
+
+17) Merging two unsorted arrays in sorted order
+Write a SortedMerge() function that takes two lists, each of which is unsorted, and merges the two together into one new list which is in sorted (increasing) order. SortedMerge() should return the new list.
+
+Examples :
+
+Input : a[] = {10, 5, 15}
+        b[] = {20, 3, 2}
+Output : Merge List :
+        {2, 3, 5, 10, 15, 20}
+
+Input : a[] = {1, 10, 5, 15}
+        b[] = {20, 0, 2}
+Output : Merge List :
+        {0, 1, 2, 5, 10, 15, 20}
+
 
